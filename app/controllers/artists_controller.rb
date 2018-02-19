@@ -15,5 +15,7 @@ class ArtistsController < ApplicationController
 
   private
 
-  def 
+  def strong_params(*args)
+
+  end
 end
