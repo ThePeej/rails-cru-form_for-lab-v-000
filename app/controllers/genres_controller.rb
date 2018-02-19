@@ -7,4 +7,12 @@ class GenresController < ApplicationController
   def new
     @genre = Genre.new
   end
+
+
+
+  private
+
+  def genre_params(*args)
+    params.require(:genre).permit(*args)
+  end
 end
