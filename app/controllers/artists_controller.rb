@@ -12,4 +12,8 @@ class ArtistsController < ApplicationController
 
     redirect_to artist_path(@artist)
   end
+
+  private
+
+  def 
 end
